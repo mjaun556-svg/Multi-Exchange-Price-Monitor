@@ -1,0 +1,9 @@
+# Multi-Exchange Price Monitor — Dependencies
+#
+# Core logic uses only Python's standard library:
+#   urllib, json, csv, time, argparse, dataclasses, datetime
+#
+# No pandas, no requests, no heavy dependencies.
+
+# Testing (optional)
+pytest==8.3.5
